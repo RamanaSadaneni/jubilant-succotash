@@ -12,7 +12,7 @@ import io.appium.java_client.remote.MobilePlatform;
 public class AppiumConfigurationProvider {
 
 	/** default appium server host */
-	private static final String DEFAULT_APPIUM_SERVER_HOST = "127.0.0.1";
+	private static final String DEFAULT_APPIUM_SERVER_HOST = "2.122.115.18";
 
 	/** default appium server port */
 	private static final String DEFAULT_APPIUM_SERVER_PORT = "4723";
@@ -24,7 +24,7 @@ public class AppiumConfigurationProvider {
 	private static final String DEFAULT_PLATFORM_NAME = IS_ANDROID_DEFAULT ? MobilePlatform.ANDROID : MobilePlatform.IOS;
 
 	/** default device name */
-	private static final String DEFAULT_DEVICE_NAME = IS_ANDROID_DEFAULT ? "Android Emulator" : "iPhone 6";
+	private static final String DEFAULT_DEVICE_NAME = IS_ANDROID_DEFAULT ? "Android Device" : "iPhone 6";
 	
 	/** Default implicit wait timeout of the appium driver in seconds */
 	private static final Integer DEFAULT_IMPLICIT_TIMEOUT_IN_SECONDS = 60;
