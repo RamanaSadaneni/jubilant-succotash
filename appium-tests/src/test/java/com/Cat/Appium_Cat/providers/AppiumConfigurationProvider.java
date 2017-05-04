@@ -36,7 +36,7 @@ public class AppiumConfigurationProvider {
 	private static final String DEFAULT_DEVICE_UDID = "";
 	
 	/** Default absolute path of the app files. By default, is emtpy */
-	private static final String DEFAULT_ABSOLUTE_PATH = "../../app/build/outputs/apk/app-debug.apk";
+	private static final String DEFAULT_ABSOLUTE_PATH = "../../App/build/outputs/apk/app-debug.apk";
 	
 	/** Hard-coded default Android package of the app (Android ONLY) */
 	public static final String APP_PACKAGE = "com.example.stephentaylor.basicapp";
