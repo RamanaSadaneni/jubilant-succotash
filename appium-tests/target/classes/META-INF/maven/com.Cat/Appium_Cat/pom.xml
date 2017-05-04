@@ -105,7 +105,7 @@
 						<property>
 							<name>listener</name>
 							<!-- Use custom listener to add screenshots and steps to the reports. <value>org.uncommons.reportng.HTMLReporter, org.uncommons.reportng.JUnitXMLReporter</value> -->
-							<value>com.smartshop.appiumtests.Appium_Tests.reports.BaseHTMLReporter,
+							<value>com.Cat.Appium_Cat.reports.BaseHTMLReporter,
 								org.uncommons.reportng.JUnitXMLReporter</value>
 						</property>
 					</properties>

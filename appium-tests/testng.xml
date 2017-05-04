@@ -3,17 +3,12 @@
 	<!-- Set listener in XML (to have reports when running the tests through 
 		Eclipse, from command-line maven is not needed) -->
 	<listeners>
-		<listener class-name="com.Tuclothing.Appium_Tuclothing.reports.BaseHTMLReporter" />
+		<listener class-name="com.Cat.Appium_Cat.reports.BaseHTMLReporter" />
 	</listeners>
 	<!-- List of tests -->
 	<test name="login">
 		<classes>
-			<class name="com.Tuclothing.Appium_Tuclothing.tests.TestLogin" />
-		</classes>
-	</test>
-	<test name="navigation">
-		<classes>
-			<class name="com.Tuclothing.Appium_Tuclothing.tests.TestBrowse" />
+			<class name="com.Cat.Appium_Cat.tests.TestSample" />
 		</classes>
 	</test>
 </suite>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="1.007" tests="3" errors="0" skipped="2" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.91-b14"/>
+    <property name="user.country.format" value="GB"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/ramana.sadaneni/jubilant-succotash/appium-tests"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/ramana.sadaneni/jubilant-succotash/appium-tests"/>
+    <property name="java.runtime.version" value="1.8.0_91-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/5q/yfjzgft93zj0_3knm0k8j44cpzst7x/T/"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.3.9/libexec/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/ramana.sadaneni/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.11.6"/>
+    <property name="user.home" value="/Users/ramana.sadaneni"/>
+    <property name="user.timezone" value="Europe/London"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="ramana.sadaneni"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.3.9/libexec/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_91"/>
+    <property name="java.ext.dirs" value="/Users/ramana.sadaneni/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.3.9/libexec"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase name="setUp" classname="com.Cat.Appium_Cat.tests.TestSample" time="0.847">
+    <failure message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.&#10;Build info: version: &apos;2.53.0&apos;, revision: &apos;35ae25b1534ae328c771e0856c93e187490ca824&apos;, time: &apos;2016-03-15 10:43:46&apos;&#10;System info: host: &apos;holbmac0323&apos;, ip: &apos;172.24.80.29&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.11.6&apos;, java.version: &apos;1.8.0_91&apos;&#10;Driver info: driver.version: AndroidDriver" type="org.openqa.selenium.remote.UnreachableBrowserException">org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'holbmac0323', ip: '172.24.80.29', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_91'
+Driver info: driver.version: AndroidDriver
+Caused by: org.openqa.selenium.WebDriverException: 
+org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'holbmac0323', ip: '172.24.80.29', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_91'
+Driver info: driver.version: AndroidDriver
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:4723 [/127.0.0.1] failed: Connection refused
+Caused by: java.net.ConnectException: Connection refused
+</failure>
+    <system-out><![CDATA[[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+[TestRunner] Running the tests in 'login' with parallel mode:none
+[RunInfo] Adding method selector: org.testng.internal.XmlMethodSelector@7ca48474 priority: 10
+[TestClass] Creating TestClass for [ClassImpl class=com.Cat.Appium_Cat.tests.TestSample]
+[TestClass] Adding method TestSample.sampletest()[pri:0, instance:null] on TestClass class com.Cat.Appium_Cat.tests.TestSample
+[XmlMethodSelector] Including method com.Cat.Appium_Cat.tests.setUp()
+[XmlMethodSelector] Including method com.Cat.Appium_Cat.tests.tearDown()
+[XmlMethodSelector] Including method com.Cat.Appium_Cat.tests.sampletest()
+[TestNG] Running:
+  /Users/ramana.sadaneni/jubilant-succotash/appium-tests/testng.xml
+
+[Invoker 101478235] Keeping method TestBase.beforeSuite(org.testng.ITestContext)[pri:0, instance:com.Cat.Appium_Cat.tests.TestSample@6adede5] for class null
+[Invoker 101478235] Invoking @BeforeSuite TestBase.beforeSuite(org.testng.ITestContext)[pri:0, instance:com.Cat.Appium_Cat.tests.TestSample@6adede5]
+repeat_failed_tests = 0
+[SuiteRunner] Created 1 TestRunners
+[TestRunner] Running test login on 1  classes,  included groups:[] excluded groups:[]
+===== Test class
+com.Cat.Appium_Cat.tests.TestSample
+  @BeforeMethod TestBase.setUp()[pri:0, instance:com.Cat.Appium_Cat.tests.TestSample@6adede5]
+    @Test TestSample.sampletest()[pri:0, instance:com.Cat.Appium_Cat.tests.TestSample@6adede5]
+  @AfterMethod TestBase.tearDown()[pri:0, instance:com.Cat.Appium_Cat.tests.TestSample@6adede5]
+======
+[Invoker 101478235] Keeping method TestBase.setUp()[pri:0, instance:com.Cat.Appium_Cat.tests.TestSample@6adede5] for class [TestClass name=class com.Cat.Appium_Cat.tests.TestSample]
+[Invoker 101478235] Keeping method TestBase.tearDown()[pri:0, instance:com.Cat.Appium_Cat.tests.TestSample@6adede5] for class [TestClass name=class com.Cat.Appium_Cat.tests.TestSample]
+[Invoker 101478235] Keeping method TestBase.setUp()[pri:0, instance:com.Cat.Appium_Cat.tests.TestSample@6adede5] for class [TestClass name=class com.Cat.Appium_Cat.tests.TestSample]
+[Invoker 101478235] Invoking @BeforeMethod TestBase.setUp()[pri:0, instance:com.Cat.Appium_Cat.tests.TestSample@6adede5]
+platform_name = Android
+device_name = Android Device
+app_path = ../../app/build/outputs/apk/app-debug.apk
+device_udid = 
+appium_server_host = 127.0.0.1
+appium_server_port = 4723
+Failed to invoke configuration method com.Cat.Appium_Cat.tests.TestBase.setUp:Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '2.53.0', revision: '35ae25b1534ae328c771e0856c93e187490ca824', time: '2016-03-15 10:43:46'
+System info: host: 'holbmac0323', ip: '172.24.80.29', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.11.6', java.version: '1.8.0_91'
+Driver info: driver.version: AndroidDriver
+]]></system-out>
+  </testcase>
+  <testcase name="sampletest" classname="com.Cat.Appium_Cat.tests.TestSample" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="tearDown" classname="com.Cat.Appium_Cat.tests.TestSample" time="0">
+    <skipped/>
+    <system-out><![CDATA[[Invoker 101478235] Keeping method TestBase.tearDown()[pri:0, instance:com.Cat.Appium_Cat.tests.TestSample@6adede5] for class [TestClass name=class com.Cat.Appium_Cat.tests.TestSample]
+]]></system-out>
+  </testcase>
+</testsuite>
