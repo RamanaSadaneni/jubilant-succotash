@@ -12,7 +12,7 @@ import io.appium.java_client.remote.MobilePlatform;
 public class AppiumConfigurationProvider {
 
 	/** default appium server host */
-	private static final String DEFAULT_APPIUM_SERVER_HOST = "2.122.115.18";
+	private static final String DEFAULT_APPIUM_SERVER_HOST = "127.0.0.1";
 
 	/** default appium server port */
 	private static final String DEFAULT_APPIUM_SERVER_PORT = "4723";
